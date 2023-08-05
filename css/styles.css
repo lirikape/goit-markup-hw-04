@@ -389,11 +389,13 @@ body {
 }
 .footer-list {
   margin-left: 156px;
+  gap: 120px;
 }
 .footer-container {
   display: flex;
   align-items: baseline;
   gap: 120px;
+  
 }
 .logo.foot {
   display: inline-block;
