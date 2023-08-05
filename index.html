@@ -54,12 +54,17 @@
         <!-- Section1 -->
         <section class="section-one">
             <div class="container sec-eff">
-            <h1 class="effective">
-                Effective Solutions
-                for Your Business
-            </h1>
-            <button type="button" class="button_or">Order Service</button>
-        </div>
+                <h1 class="effective">
+                    Effective Solutions
+                    for Your Business
+                </h1>
+                <button data-modal-open type="button" class="button_or">Order Service</button>
+                <div class="backdrop is-hidden" data-modal>
+                    <div class="modal">
+<button data-modal-close>Close</button>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <!-- Section2 -->
@@ -71,6 +76,9 @@
                 <ul class="list section-list">
                     <li class="item">
                         <!-- Strategy -->
+                        <svg class="features-icon" width="64" height="64">
+                            <use href="./images/icons.svg#icon-antenna"></use>
+                        </svg>
                         <h3 class="title">Strategy</h3>
                         <p class="text">Our goal is to identify the business problem to walk away with the perfect and
                             creative solution.
@@ -78,6 +86,9 @@
                     </li>
                     <!-- Punctuality -->
                     <li class="item">
+                        <svg class="features-icon" width="64" height="64">
+                            <use href="./images/icons.svg#icon-clock"></use>
+                        </svg>
                         <h3 class="title">Punctuality</h3>
                         <p class="text">Bring the key message to the brand's audience for the best price within the
                             shortest
@@ -87,6 +98,9 @@
                     </li>
                     <!-- Diligence -->
                     <li class="item">
+                        <svg class="features-icon" width="64" height="64">
+                            <use href="./images/icons.svg#icon-diagram"></use>
+                        </svg>
                         <h3 class="title">Diligence</h3>
                         <p class="text">Research and confirm brands that present the strongest digital growth
                             opportunities
@@ -96,6 +110,9 @@
                     </li>
                     <!-- Technologies -->
                     <li class="item">
+                        <svg class="features-icon" width="64" height="64">
+                            <use href="./images/icons.svg#icon-astronaut"></use>
+                        </svg>
                         <h3 class="title">Technologies</h3>
                         <p class="text">Design practice focused on digital experiences. We bring forth a deep passion
                             for
@@ -135,6 +152,20 @@
                         <div class="card-content">
                             <h3 class="title">Mark Guerrero</h3>
                             <p class="text">Product Designer</p>
+                            <div class="section-team-svg">
+                                <svg class="section-team-icon" width="40" height="40">
+                                    <use href="./images/icons.svg#icon-instagram"></use>
+                                </svg>
+                                <svg class="section-team-icon" width="40" height="40">
+                                    <use href="./images/icons.svg#icon-twitter"></use>
+                                </svg>
+                                <svg class="section-team-icon" width="40" height="40">
+                                    <use href="./images/icons.svg#icon-facebook"></use>
+                                </svg>
+                                <svg class="section-team-icon" width="40" height="40">
+                                    <use href="./images/icons.svg#icon-linkedin"></use>
+                                </svg>
+                            </div>
                         </div>
                     </li>
                     <!-- Tom card -->
@@ -143,6 +174,20 @@
                         <div class="card-content">
                             <h3 class="title">Tom Ford</h3>
                             <p class="text">Frontend Developer</p>
+                            <div class="section-team-svg">
+                                <svg class="section-team-icon" width="40" height="40">
+                                    <use href="./images/icons.svg#icon-instagram"></use>
+                                </svg>
+                                <svg class="section-team-icon" width="40" height="40">
+                                    <use href="./images/icons.svg#icon-twitter"></use>
+                                </svg>
+                                <svg class="section-team-icon" width="40" height="40">
+                                    <use href="./images/icons.svg#icon-facebook"></use>
+                                </svg>
+                                <svg class="section-team-icon" width="40" height="40">
+                                    <use href="./images/icons.svg#icon-linkedin"></use>
+                                </svg>
+                            </div>
                         </div>
                     </li>
                     <!-- Camila card -->
@@ -151,6 +196,20 @@
                         <div class="card-content">
                             <h3 class="title">Camila Garcia</h3>
                             <p class="text">Marketing</p>
+                            <div class="section-team-svg">
+                                <svg class="section-team-icon" width="40" height="40">
+                                    <use href="./images/icons.svg#icon-instagram"></use>
+                                </svg>
+                                <svg class="section-team-icon" width="40" height="40">
+                                    <use href="./images/icons.svg#icon-twitter"></use>
+                                </svg>
+                                <svg class="section-team-icon" width="40" height="40">
+                                    <use href="./images/icons.svg#icon-facebook"></use>
+                                </svg>
+                                <svg class="section-team-icon" width="40" height="40">
+                                    <use href="./images/icons.svg#icon-linkedin"></use>
+                                </svg>
+                            </div>
                         </div>
                     </li>
                     <!-- Daniel card -->
@@ -159,6 +218,20 @@
                         <div class="card-content">
                             <h3 class="title">Daniel Wilson</h3>
                             <p class="text">UI Designer</p>
+                            <div class="section-team-svg">
+                                <svg class="section-team-icon" width="40" height="40">
+                                    <use href="./images/icons.svg#icon-instagram"></use>
+                                </svg>
+                                <svg class="section-team-icon" width="40" height="40">
+                                    <use href="./images/icons.svg#icon-twitter"></use>
+                                </svg>
+                                <svg class="section-team-icon" width="40" height="40">
+                                    <use href="./images/icons.svg#icon-facebook"></use>
+                                </svg>
+                                <svg class="section-team-icon" width="40" height="40">
+                                    <use href="./images/icons.svg#icon-linkedin"></use>
+                                </svg>
+                            </div>
                         </div>
                     </li>
                 </ul>
@@ -166,17 +239,84 @@
             </div>
         </section>
 
+        <!-- Customers -->
+        <section class="customers">
+            <div class="container custome">
+                <h2 class="title-customers">Customers</h2>
+                <ul class="customers-list">
+                    <li class="customers-item">
+                        <svg class="customers-icon" width="168" height="88">
+                            <use href="./images/icons.svg#icon-clientone"></use>
+                        </svg>
+                    </li>
+                    <li class="customers-item">
+                        <svg class="customers-icon" width="168" height="88">
+                            <use href="./images/icons.svg#icon-clienttwo"></use>
+                        </svg>
+                    </li>
+                    <li class="customers-item">
+                        <svg class="customers-icon" width="168" height="88">
+                            <use href="./images/icons.svg#icon-clientthree"></use>
+                        </svg>
+                    </li>
+                    <li class="customers-item">
+                        <svg class="customers-icon" width="168" height="88">
+                            <use href="./images/icons.svg#icon-clientfour"></use>
+                        </svg>
+                    </li>
+                    <li class="customers-item">
+                        <svg class="customers-icon" width="168" height="88">
+                            <use href="./images/icons.svg#icon-clientfive"></use>
+                        </svg>
+                    </li>
+                    <li class="customers-item">
+                        <svg class="customers-icon" width="168" height="88">
+                            <use href="./images/icons.svg#icon-clientsix"></use>
+                        </svg>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+
     </main><br>
 
     <!-- Footer -->
     <footer class="footer-side">
-        <div class="container">
-            <a href="./index.html" class="logo foot">Web<span class="span-logo-down">Studio</span>
-            </a>
-            <p class="down">Increase the flow of customers and sales for your business with digital marketing & growth
-                solutions.</p>
+        <div class="footer-container ">
+            <ul class="footer-list">
+                <li class="footer-item">
+                    <a href="./index.html" class="logo foot">Web<span class="span-logo-down">Studio</span>
+                    </a>
+                    <p class="down">Increase the flow of customers and sales for your business with digital marketing &
+                        growth
+                        solutions.</p>
+                </li>
+                <li>
+                    <div class="social-media">
+                        <p class="text-media">Social media</p>
+                        <div class="section-media-svg">
+                            <svg class="section-media-icon" width="40" height="40">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                            <svg class="section-media-icon" width="40" height="40">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                            <svg class="section-media-icon" width="40" height="40">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                            <svg class="section-media-icon" width="40" height="40">
+                                <use href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </div>
+                </li>
+            </ul>
         </div>
+
     </footer>
+
+
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
