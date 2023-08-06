@@ -388,13 +388,14 @@ body {
   padding: 100px 0;
 }
 .footer-list {
-  margin-left: 156px;
   margin-right: 120px;
+  margin-left: 156px;
+  
 }
 .footer-container {
   display: flex;
   align-items: baseline;
-  gap: 120px;
+  
   
 }
 .logo.foot {
