@@ -395,7 +395,7 @@ body {
 .footer-container {
   display: flex;
   align-items: baseline;
-  
+  margin-left: 156px;
   
 }
 .logo.foot {
